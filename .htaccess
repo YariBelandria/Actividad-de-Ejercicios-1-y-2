@@ -1,0 +1,11 @@
+# No publicar el historial de git por el navegador
+RedirectMatch 403 \.git
+
+# Archivos internos del servidor
+<Files ".htaccess">
+    Require all denied
+</Files>
+
+<FilesMatch "\.(log|zip|sh)$">
+    Require all denied
+</FilesMatch>
