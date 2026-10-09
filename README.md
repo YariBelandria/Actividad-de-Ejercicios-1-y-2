@@ -114,4 +114,5 @@ descuento aplica o no con su monto, y el monto total neto a pagar.
 
 ## Autor
 
-Yacrianny Belandria
+Yacrianny Belandria# Actividad-de-Ejercicios-1-y-2
+# Actividad-de-Ejercicios-1-y-2
