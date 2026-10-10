@@ -31,7 +31,6 @@ y abrir <http://localhost:8000>.
 | `index.php` | Portada con el menú y los enlaces a los dos ejercicios. |
 | `ejercicio1_salario.php` | Ejercicio 1: cálculo de salario quincenal con deducciones variables. |
 | `ejercicio2_factura.php` | Ejercicio 2: facturación con IVA y descuento condicional. |
-| `estilos.css` | Hoja de estilos compartida por los dos ejercicios. |
 
 ## Ejercicio 1 — Cálculo de Salario Quincenal con Deducciones Variables
 
@@ -78,9 +77,8 @@ sueldo_neto       = sueldo_bruto - total_deducciones
 
 ### Salida en pantalla
 
-Datos personales del trabajador, tabla con el subtotal de cada turno, sueldo quincenal
-bruto, los porcentajes y montos de cada deducción, el total de deducciones y el
-sueldo quincenal neto.
+Datos personales del trabajador, sueldo por cada turno, sueldo quincenal bruto, los
+porcentajes y montos de cada deducción, el total de deducciones y el sueldo quincenal neto.
 
 ## Ejercicio 2 — Facturación con IVA, Descuento Condicional y Unidades Múltiples
 
@@ -114,5 +112,4 @@ descuento aplica o no con su monto, y el monto total neto a pagar.
 
 ## Autor
 
-Yacrianny Belandria# Actividad-de-Ejercicios-1-y-2
-# Actividad-de-Ejercicios-1-y-2
+Yacrianny Belandria
