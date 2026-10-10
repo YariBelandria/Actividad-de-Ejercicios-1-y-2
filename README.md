@@ -63,13 +63,13 @@ Las deducciones dependen del monto del sueldo bruto:
 
 | Sueldo bruto | Ahorro Habitacional | Seguro Social |
 | --- | --- | --- |
-| Menor a 85.000 Bs. | 0.10 % | 0.15 % |
-| Entre 85.000 Bs. y 150.000 Bs. | 0.15 % | 0.20 % |
-| Mayor a 150.000 Bs. | 0.30 % | 0.25 % |
+| Menor a 85.000 Bs. | 10 % | 15 % |
+| Entre 85.000 Bs. y 150.000 Bs. | 15 % | 20 % |
+| Mayor a 150.000 Bs. | 30 % | 25 % |
 
 ```
-ahorro_habitacional = sueldo_bruto * (porcentaje_ahorro / 100)
-seguro_social       = sueldo_bruto * (porcentaje_seguro / 100)
+ahorro_habitacional = sueldo_bruto * 0.10   (decimal según la escala)
+seguro_social       = sueldo_bruto * 0.15
 
 total_deducciones = ahorro_habitacional + seguro_social
 sueldo_neto       = sueldo_bruto - total_deducciones
